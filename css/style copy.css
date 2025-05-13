@@ -1,15 +1,13 @@
-/* Base styles (you might want to keep some of the previous general styles) */
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 18px;
   line-height: 1.6;
-  background-color: #f8f8f8; /* Light gray background */
-  color: #555; /* Darker gray for better readability of main text */
+  background-color: #f8f8f8; 
+  color: #555; 
 }
 
-/* Header and Navigation (keep these consistent across pages) */
 header {
-  background-color: #2c3e50; /* Dark header */
+  background-color: #2c3e50; 
   color: #fff;
   padding: 1em 0;
   text-align: center;
@@ -35,20 +33,19 @@ nav a:hover {
   background-color: #34495e;
 }
 
-/* Main Content for About Page */
 main {
-  padding: 3em; /* More padding for the About section */
-  max-width: 700px; /* Focused reading width */
-  margin: 40px auto; /* More top margin to separate from header */
+  padding: 3em; 
+  max-width: 700px; 
+  margin: 40px auto; 
   background-color: #fff;
   border-radius: 8px;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15); /* Slightly stronger shadow */
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15); 
 }
 
 h1 {
   font-family: 'Playfair Display', serif;
   font-size: 3.0em;
-  color: #c0392b; /* Red for the main heading */
+  color: #c0392b; 
   text-align: center;
   margin-bottom: 1.2em;
 }
@@ -56,11 +53,10 @@ h1 {
 p {
   font-size: 1.2em;
   line-height: 1.8;
-  color: #e74c3c; /* Red for the paragraph text */
-  margin-bottom: 1.5em; /* More space between paragraphs */
+  color: #e74c3c; 
+  margin-bottom: 1.5em; 
 }
 
-/* Footer (keep consistent) */
 footer {
   text-align: center;
   padding: 1em 0;
@@ -71,6 +67,3 @@ footer {
   width: 100%;
   border-top: 1px solid #34495e;
 }
-
-/* You might want to remove or adjust the general responsive design for a single page */
-/* @media (max-width: 768px) { ... } */

@@ -12,9 +12,8 @@ body, h1, h2, h3, p, ul, li, figure, figcaption, blockquote {
     color: #333;
   }
   
-  /* Header and Navigation */
   header {
-    background-color: #ffd063; /* Changed to a shade of red */
+    background-color: #ffd063; 
     color: #fff;
     padding: 1em 0;
     text-align: center;
@@ -37,10 +36,9 @@ body, h1, h2, h3, p, ul, li, figure, figcaption, blockquote {
   }
   
   nav a:hover {
-    background-color: #d8321f; /* Slightly darker shade of red on hover */
+    background-color: #d8321f; 
   }
   
-  /* Main Content */
   main {
     padding: 2em;
     max-width: 960px;
@@ -53,7 +51,7 @@ body, h1, h2, h3, p, ul, li, figure, figcaption, blockquote {
   h1 {
     font-family: 'Playfair Display', serif;
     font-size: 3.2em;
-    color: #e74c3c; /* Changed to red */
+    color: #e74c3c; 
     text-align: center;
     margin-bottom: 1em;
   }
@@ -61,7 +59,7 @@ body, h1, h2, h3, p, ul, li, figure, figcaption, blockquote {
   h2 {
     font-family: 'Playfair Display', serif;
     font-size: 2.2em;
-    color: #e74c3c; /* Changed to red */
+    color: #e74c3c; 
     margin-top: 1.5em;
     margin-bottom: 0.8em;
   }
@@ -74,16 +72,17 @@ body, h1, h2, h3, p, ul, li, figure, figcaption, blockquote {
 
   .home-isu {
     display: flex;
-    justify-content: center; /* This will center the images horizontally */
-    align-items: center;    /* This will center the images vertically within the container (if needed) */
-    gap: 20px;             /* Adjust the spacing between the images as desired */
-    margin-top: 1em;        /* Add some space above the images */
-    margin-bottom: 1em;     /* Add some space below the images */
+    justify-content: center; 
+    align-items: center;    
+    gap: 20px;             
+    margin-top: 1em;        
+    margin-bottom: 1em;    
+  }
+
+  .isu-campus img:first-child {
+    margin-left: 70px;
   }
   
-  
-  
-  /* Memory Sections */
   .memory-section {
     margin-bottom: 2em;
     padding: 1.5em;
@@ -106,19 +105,19 @@ body, h1, h2, h3, p, ul, li, figure, figcaption, blockquote {
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
   }
   
-  /* Footer */
+  
   footer {
     text-align: center;
     padding: 1em 0;
-    background-color: #e74c3c; /* Changed to red */
+    background-color: #e74c3c; 
     color: #fff;
     position: sticky;
     bottom: 0;
     width: 100%;
-    border-top: 1px solid #c0392b; /* Slightly darker red for the border */
+    border-top: 1px solid #c0392b; 
   }
   
-  /* Responsive Design (adjust as needed) */
+
   @media (max-width: 768px) {
     body {
       font-size: 18px;
